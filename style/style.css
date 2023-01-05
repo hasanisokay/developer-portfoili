@@ -108,7 +108,10 @@ main {
 }
 
 .section-title {
+    font-size: 35px;
     margin-bottom: 30px;
+    margin-top: 130px;;
+    text-align: center;
 }
 
 .about-info-container {
@@ -152,5 +155,34 @@ main {
 }
 .what-i-do{
     margin-top: 130px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.resume-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+}
+.resume-item{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin: 20px 0;
+}
+.resume-subtitle{ 
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+}
+.resume-description{
+    color: #757575;
+    font-size: 16px;
+}
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume-button{
+    margin-top: 50px;
     text-align: center;
 }
